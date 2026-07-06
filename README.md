@@ -2,8 +2,6 @@
 
 Welcome to the official repository for **SG Engineering**, a premier provider of industrial lifting solutions. We specialize in the design, engineering, manufacturing, and supply of heavy-duty cranes, helping industries lift progress with trust and excellence.
 
-![SG Engineering Facility](assets/facility.png)
-
 ## 📸 Website Preview
 Here is a sneak peek of our website pages:
 

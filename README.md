@@ -4,6 +4,15 @@ Welcome to the official repository for **SG Engineering**, a premier provider of
 
 ![SG Engineering Facility](assets/facility.png)
 
+## 📸 Website Preview
+Here is a sneak peek of our website pages:
+
+| Home | Products |
+| :---: | :---: |
+| ![Home](assets/home.png) | ![Products](assets/products.png) |
+| **About Us** | **Contact Us** |
+| ![About Us](assets/about.png) | ![Contact Us](assets/contact.png) |
+
 ## 🌐 Live Website
 Visit our official website: [http://sgengineering.info](http://sgengineering.info)
 

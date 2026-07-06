@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SG ENGINEERING</title>
+    <meta name="description" content="Get in touch with SG Engineering for quotes, inquiries, and support.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="header-top">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone-alt"></i> +91-9730357525</span>
+                <span style="margin-left: 20px;"><i class="fas fa-envelope"></i> sgengg2022@gmail.com</span>
+            </div>
+            <div class="social-links">
+                <span>ISO 9001:2015 CERTIFIED</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <header class="header">
+        <div class="header-main">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">SG</span>
+                    <span class="logo-subtext">ENGINEERING</span>
+                </a>
+
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <nav class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="products.html" class="nav-link">Products</a>
+                    <a href="services.html" class="nav-link">Services</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="section section-bg-light" style="padding: 40px 0;">
+        <div class="container">
+            <h1 style="font-size: 2.5rem;">Contact Us</h1>
+            <p>Let's build the future of lifting together. Reach out for quotes and consultations.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Get in Touch</h2>
+
+                    <div style="margin-bottom: 30px;">
+                        <h4 style="margin-bottom: 15px; color: var(--secondary-color);">Head Office &amp; Works</h4>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            <strong>SG ENGINEERING</strong><br>
+                            B106, Ground Floor,<br>
+                            Additional MIDC Ambernath (East),<br>
+                            District Thane - 421501,<br>
+                            Maharashtra, India.
+                        </p>
+                    </div>
+
+                    <div style="margin-bottom: 30px;">
+                        <h4 style="margin-bottom: 15px; color: var(--secondary-color);">Connect Directly</h4>
+                        <p style="margin-bottom: 10px;">
+                            <i class="fas fa-phone-alt" style="width: 20px; color: var(--secondary-color);"></i>
+                            <a href="tel:+919730357525">+91 9730357525</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope" style="width: 20px; color: var(--secondary-color);"></i>
+                            <a href="mailto:sgengg2022@gmail.com">sgengg2022@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div style="background: var(--light-bg); padding: 40px; border-radius: 8px;">
+                    <h3 style="margin-bottom: 20px;">Send us an Inquiry</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" class="form-control" placeholder="Your Company Ltd."
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="+91 9876543210" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message / Requirements</label>
+                            <textarea id="message" rows="4" class="form-control"
+                                placeholder="Tell us about your crane requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 20px; display: inline-block;">
+                        <span class="logo-text" style="color: white;">SG</span>
+                        <span class="logo-subtext" style="color: var(--secondary-color);">ENGINEERING</span>
+                    </div>
+                    <p style="opacity: 0.7; max-width: 300px;">
+                        Built in India, Lifting the World. Specialised in Design, Engineering, Manufacturing &amp;
+                        Supply of EOT, Goliath &amp; Jib Cranes.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="products.html">Products</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h3>Our Products</h3>
+                    <a href="products.html">EOT Cranes</a>
+                    <a href="products.html">Goliath Cranes</a>
+                    <a href="products.html">Jib Cranes</a>
+                    <a href="products.html">Electric Hoists</a>
+                </div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <p style="margin-bottom: 10px;"><i class="fas fa-map-marker-alt"
+                            style="color: var(--secondary-color); margin-right: 10px;"></i> B106, Addl. MIDC Ambernath
+                        (E) 421501, Thane, MH</p>
+                    <p style="margin-bottom: 10px;"><i class="fas fa-phone-alt"
+                            style="color: var(--secondary-color); margin-right: 10px;"></i> +91-9730357525</p>
+                    <p><i class="fas fa-envelope" style="color: var(--secondary-color); margin-right: 10px;"></i>
+                        sgengg2022@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SG ENGINEERING. All Rights Reserved. | ISO 9001:2015 CERTIFIED</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

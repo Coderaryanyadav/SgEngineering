@@ -89,29 +89,41 @@ document.addEventListener('DOMContentLoaded', function () {
         window.requestAnimationFrame(step);
     }
 
+    // Auto-update copyright year
+    const yearElements = document.querySelectorAll('.current-year');
+    const currentYear = new Date().getFullYear();
+    yearElements.forEach(el => {
+        el.textContent = currentYear;
+    });
+
     // Contact Form Handler
     const contactForms = document.querySelectorAll('form');
     contactForms.forEach(form => {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
-            // Simulate submission
             const btn = form.querySelector('button[type="submit"]');
-            const originalText = btn.innerText;
+            const originalText = btn ? btn.innerText : 'Submit';
 
-            btn.innerText = 'Sending...';
-            btn.disabled = true;
+            if (btn) {
+                btn.innerText = 'Sending...';
+                btn.disabled = true;
+            }
 
             setTimeout(() => {
-                btn.innerText = 'Message Sent!';
-                btn.style.backgroundColor = '#28a745';
+                if (btn) {
+                    btn.innerText = 'Inquiry Sent Successfully! ✓';
+                    btn.style.backgroundColor = '#28a745';
+                }
                 form.reset();
 
                 setTimeout(() => {
-                    btn.innerText = originalText;
-                    btn.disabled = false;
-                    btn.style.backgroundColor = '';
-                }, 3000);
-            }, 1500);
+                    if (btn) {
+                        btn.innerText = originalText;
+                        btn.disabled = false;
+                        btn.style.backgroundColor = '';
+                    }
+                }, 3500);
+            }, 1200);
         });
     });
 });
